@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+
+.grid-container{
+    display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+#h2{
+    color: brown;
+}
+img{
+    object-fit: cover;
+  width: 100%;
+  
+}
+img:hover{
+    opacity: 0.5;
+    background-color: aqua;
+}
+
+
+@media screen and (max-width: 800px){
+    .grid-container{
+        grid-template-columns: auto ;
+    }
+}  
+
+@media screen and (max-width: 600px)
+{
+ .grid-container{
+grid-template-columns: auto;
+  }
+ 
+}
+
+
+
